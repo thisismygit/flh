@@ -1,14 +1,11 @@
 @namespace "http://www.w3.org/1999/xhtml";
 @-moz-document domain("forlornhopemercs.enjin.com") {
+  
+  /* Forground/ background colors... */
   body { 
     background-color: #131313;
   }
-  
-  #page-wrap.old {
-    color: #9b8253;
-    background-color: #363636;
-  }
-  
+    
   #page-wrap {
     color: #9b8253;
     background-color: #262626;
@@ -19,18 +16,48 @@
     padding-right: 10px;
   }
   
-  a.old {
-    color: #800808;
-  }
-  a {
+  a, a:hover {
     color: #944;
   }
   
-  .m_header {
-    display:none;
-    
+  .m_system-siteprofile .siteprofile-menu {
+    background-color: #262626;
   }
   
+  #section-main > div > div.container.with-header.first.last > div.fixed_height_elem.container_header {
+    display: none;
+  }
+  
+  /* Tweaks popup menu background color */
+
+  body.dark-theme.fixed > .element_popup .inner {
+    background-color: #131313;
+    opacity: 0.85;
+  }
+  
+  /* Navbar colors */
+  .m_hmenu_v2.cust107614 .first-level-items > .auto-position-container > .li > a {
+    color: black;
+  }
+
+  .m_hmenu_v2.cust107614 .first-level-items > .auto-position-container > .button-hover > a {
+    color: #800808 !important;
+  }
+  
+  /* Hides flash elements */
+  .m_header {
+    display:none;
+  }
+  
+  .v2_system_social .wall .post_interact_likes_empty {
+    color: #3a3;
+  }
+  
+  .v2_system_social .wall .post_interact_likes_empty:hover {
+    color: #3c3;
+  }
+  
+  /* Calendar Hacks */
   .m_eventcalendar .fc-grid div.fc-day-number {
     color: #bbb;
   }
@@ -49,13 +76,17 @@
   
   .m_eventcalendar .fc-content tr > td.fc-state-default,
   .m_eventcalendar .fc-content tr > th.fc-state-default {
-    border-color: red;
+    border-color: #444;
   }
   
-  
-  body.dark-theme.fixed > div.element_popup.element_dropdown_menu.enjinbar-menu.enjinbar-menu-user .element_popup.inner {
-    background-color: black;
+  .v2_system_social a.menu_link:hover {
+    color: #944;
   }
-
+  
+  #page-footer {
+    border-right: solid #262626 2px;
+    border-left: solid #262626 2px;
+    border-bottom: solid #262626 2px;
+  }
   
 }

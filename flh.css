@@ -89,4 +89,8 @@
     border-bottom: solid #262626 2px;
   }
   
+  .bbcode_code_body {
+    max-width: 100%;
+  }
+  
 }

@@ -16,9 +16,9 @@
     padding-right: 10px;
   }
   
-  a, a:hover,
+  a, a:hover, a:focus,
   .v2_system_social a.menu_link:hover {
-    color: #944;
+    color: #aB4F33;
   }
   
   .m_system-siteprofile .siteprofile-menu {
@@ -59,11 +59,9 @@
   }
   
   /* Calendar Hacks */
-  .m_eventcalendar .fc-grid div.fc-day-number {
-    color: #bbb;
-  }
+  .m_eventcalendar .fc-grid div.fc-day-number,
   .fc-event a {
-    color: #bbb;  
+    color: #bbb;
   }
   
   tr.fc-week0 > td.fc-state-default.fc-other-month.fc-not-today,

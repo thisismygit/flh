@@ -65,6 +65,7 @@
   }
   
   tr.fc-week0 > td.fc-state-default.fc-other-month.fc-not-today,
+  tr.fc-week4 > td.fc-state-default.fc-other-month.fc-not-today,
   tr.fc-week5 > td.fc-state-default.fc-other-month.fc-not-today {
     background-color: #161616;
   }

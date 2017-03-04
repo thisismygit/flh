@@ -1,41 +1,45 @@
 @namespace "http://www.w3.org/1999/xhtml";
 @-moz-document domain("forlornhopemercs.enjin.com") {
-  
+
   /* Forground/ background colors... */
-  body { 
+  body {
     background-color: #131313;
   }
-    
+
+  #page {
+    width: 1080px;
+  }
+
   #page-wrap {
     color: #9b8253;
     background-color: #262626;
   }
-  
+
   #enjin-bar {
     padding-left: 10px;
     padding-right: 10px;
   }
-  
+
   a, a:hover, a:focus,
   .v2_system_social a.menu_link:hover {
     color: #aB4F33;
   }
-  
+
   .m_system-siteprofile .siteprofile-menu {
     background-color: #262626;
   }
-  
+
   #section-main > div > div.container.with-header.first.last > div.fixed_height_elem.container_header {
     display: none;
   }
-  
+
   /* Tweaks popup menu background color */
 
   body.dark-theme.fixed > .element_popup .inner {
     background-color: #131313;
     opacity: 0.85;
   }
-  
+
   /* Navbar colors */
   .m_hmenu_v2.cust107614 .first-level-items > .auto-position-container > .li > a {
     color: black;
@@ -44,49 +48,114 @@
   .m_hmenu_v2.cust107614 .first-level-items > .auto-position-container > .button-hover > a {
     color: #800808 !important;
   }
-  
+
   /* Hides flash elements */
-  .m_header {
+  .m_header .holder {
     display:none;
   }
-  
+
+  .insignia-banner {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 1052px;
+  }
+
+  .insignia-flh {
+    background-image: url("http://files.enjin.com/919203/Unit%20Insignias/Official%20Forlorn%20Hope%20Official%20Insignia%20(Text).png");
+  }
+
+  .insignia-war-council {
+    background-image: url("http://files.enjin.com/919203/Company%20Insignia/War%20Council%20Insignia%20Patch%20(Roster).png");
+  }
+
+  .insignia-hrokr {
+    background-image: url("http://files.enjin.com/919203/Company%20Insignia/Hrokr%20Company%20Insignia%20Patch%20(Roster).png");
+  }
+
+  .insignia-simo {
+    background-image: url("http://files.enjin.com/919203/Company%20Insignia/Simo%20Company%20Insignia%20Patch%20(Roster).png");
+  }
+
+  .banner-base {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1052px;
+  }
+
+  .banner-forum {
+    background-image: url("http://files.enjin.com/919203/headers/forum.png");
+    height: 150px !important;
+  }
+
+  .banner-enlistment {
+    background-image: url("http://files.enjin.com/919203/headers/enlistment.png");
+    height: 150px !important;
+  }
+
+  .banner-history {
+    background-image: url("http://files.enjin.com/919203/headers/history.png");
+    height: 150px !important;
+  }
+
+  .banner-uniforms-and-colors {
+    background-image: url("http://files.enjin.com/919203/headers/uniforms_and_colors.png");
+    height: 150px !important;
+  }
+
+  .line-seperator {
+    background-image: url("http://files.enjin.com/919203/headers/line.png");
+    height: 100px;
+    margin-left: 26px;
+    margin-right: 26px;
+  }
+
+  .image-uniforms {
+    background-image: url("http://files.enjin.com/919203/Uniforms/uniforms_all.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1066px;
+    height: 300px;
+  }
+
   .v2_system_social .wall .post_interact_likes_empty {
     color: #3a3;
   }
-  
+
   .v2_system_social .wall .post_interact_likes_empty:hover {
     color: #3c3;
   }
-  
+
   /* Calendar Hacks */
   .m_eventcalendar .fc-grid div.fc-day-number,
   .fc-event a {
     color: #bbb;
   }
-  
+
   tr.fc-week0 > td.fc-state-default.fc-other-month.fc-not-today,
   tr.fc-week4 > td.fc-state-default.fc-other-month.fc-not-today,
   tr.fc-week5 > td.fc-state-default.fc-other-month.fc-not-today {
     background-color: #161616;
   }
-  
+
   .m_eventcalendar .fc-content td.fc-state-highlight {
     background-color: black;
   }
-  
+
   .m_eventcalendar .fc-content tr > td.fc-state-default,
   .m_eventcalendar .fc-content tr > th.fc-state-default {
     border-color: #444;
   }
-  
+
   #page-footer {
     border-right: solid #262626 2px;
     border-left: solid #262626 2px;
     border-bottom: solid #262626 2px;
   }
-  
+
   .bbcode_code_body {
     max-width: 100%;
   }
-  
+
 }

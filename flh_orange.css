@@ -6,8 +6,8 @@
     background-color: #131313;
   }
 
-  #page {
-    width: 1080px;
+  body #page {
+    min-width: 1080px;
   }
 
   #page-wrap {

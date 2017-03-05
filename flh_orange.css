@@ -159,4 +159,15 @@
     max-width: 100%;
   }
 
+  .m_forum .forum .subforums span.subforum-elem {
+    padding-bottom: 9px;
+  }
+
+  /* fixes subforum issue */
+  .m_forum .forum .subforums span.subforum-elem > a.forum_old {
+    padding-left: 27px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
 }

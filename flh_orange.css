@@ -181,4 +181,16 @@
     background-color: transparent;
   }
 
+  div#page-footer > div.left > a:visited,
+  div#page-footer > div.left > a,
+  div#page-footer > div.left,
+  div#page-footer > div.right {
+    color: transparent;
+    background-color: transparent;
+  }
+
+  div#page-footer > div.left img {
+    display: none;
+  }
+
 }

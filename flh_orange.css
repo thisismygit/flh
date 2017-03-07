@@ -175,4 +175,10 @@
     font-size: 14px;
   }
 
+  /* hides footer shit */
+  div#page-footer {
+    color: transparent;
+    background-color: transparent;
+  }
+
 }

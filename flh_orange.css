@@ -149,18 +149,12 @@
     border-color: #444;
   }
 
-  #page-footer {
-    border-right: solid #262626 2px;
-    border-left: solid #262626 2px;
-    border-bottom: solid #262626 2px;
+  div.date-info {
+    width: 210px !important;
   }
 
-  .bbcode_code_body {
-    max-width: 100%;
-  }
 
   /* fixes subforum issue */
-
   .m_forum .forum .subforums span.subforum-elem {
     padding-bottom: 9px;
     padding-top: 7px;
@@ -174,6 +168,11 @@
     margin-left: 15px;
     font-size: 14px;
   }
+
+  .bbcode_code_body {
+    max-width: 100%;
+  }
+
 
   /* hides footer shit */
   div#page-footer {
@@ -191,6 +190,12 @@
 
   div#page-footer > div.left img {
     display: none;
+  }
+
+  #page-footer {
+    border-right: solid #262626 2px;
+    border-left: solid #262626 2px;
+    border-bottom: solid #262626 2px;
   }
 
 }

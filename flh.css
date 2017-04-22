@@ -1,41 +1,41 @@
 @namespace "http://www.w3.org/1999/xhtml";
 @-moz-document domain("forlornhopemercs.enjin.com") {
-  
+
   /* Forground/ background colors... */
-  body { 
+  body {
     background-color: #131313;
   }
-    
+
   #page-wrap {
     color: #9b8253;
     background-color: #262626;
   }
-  
+
   #enjin-bar {
     padding-left: 10px;
     padding-right: 10px;
   }
-  
+
   a, a:hover,
   .v2_system_social a.menu_link:hover {
     color: #944;
   }
-  
+
   .m_system-siteprofile .siteprofile-menu {
     background-color: #262626;
   }
-  
+
   #section-main > div > div.container.with-header.first.last > div.fixed_height_elem.container_header {
     display: none;
   }
-  
+
   /* Tweaks popup menu background color */
 
   body.dark-theme.fixed > .element_popup .inner {
     background-color: #131313;
     opacity: 0.85;
   }
-  
+
   /* Navbar colors */
   .m_hmenu_v2.cust107614 .first-level-items > .auto-position-container > .li > a {
     color: black;
@@ -44,51 +44,66 @@
   .m_hmenu_v2.cust107614 .first-level-items > .auto-position-container > .button-hover > a {
     color: #800808 !important;
   }
-  
+
   /* Hides flash elements */
   .m_header {
     display:none;
   }
-  
+
   .v2_system_social .wall .post_interact_likes_empty {
     color: #3a3;
   }
-  
+
   .v2_system_social .wall .post_interact_likes_empty:hover {
     color: #3c3;
   }
-  
+
+  /* fixes ribbons padding, making posts no longer needlessly long */
+  .m_forum .awards {
+    margin-top: 15px !important;
+  }
+
+  .m_forum .awards .awards_images a.award_link {
+    margin-top: -11px;
+    margin-bottom: 0px;
+  }
+
+  /* Fixes wordbreaks on Canadian's name */
+  div.username a.element_username {
+    word-break: normal;
+  }
+
   /* Calendar Hacks */
   .m_eventcalendar .fc-grid div.fc-day-number {
     color: #bbb;
   }
   .fc-event a {
-    color: #bbb;  
+    color: #bbb;
   }
-  
+
   tr.fc-week0 > td.fc-state-default.fc-other-month.fc-not-today,
   tr.fc-week4 > td.fc-state-default.fc-other-month.fc-not-today,
   tr.fc-week5 > td.fc-state-default.fc-other-month.fc-not-today {
     background-color: #161616;
   }
-  
+
   .m_eventcalendar .fc-content td.fc-state-highlight {
     background-color: black;
   }
-  
+
   .m_eventcalendar .fc-content tr > td.fc-state-default,
   .m_eventcalendar .fc-content tr > th.fc-state-default {
     border-color: #444;
   }
-  
+
   #page-footer {
     border-right: solid #262626 2px;
     border-left: solid #262626 2px;
     border-bottom: solid #262626 2px;
   }
-  
+
   .bbcode_code_body {
     max-width: 100%;
   }
-  
+
 }

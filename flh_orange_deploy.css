@@ -125,6 +125,21 @@ body.dark-theme.fixed > .element_popup .inner {
   color: #3c3;
 }
 
+/* fixes ribbons padding, making posts no longer needlessly long */
+.m_forum .awards {
+  margin-top: 15px !important;
+}
+
+.m_forum .awards .awards_images a.award_link {
+  margin-top: -11px;
+  margin-bottom: 0px;
+}
+
+/* Fixes wordbreaks on Canadian's name */
+div.username a.element_username {
+  word-break: normal;
+}
+
 /* Calendar Hacks */
 .m_eventcalendar .fc-grid div.fc-day-number,
 .fc-event a {
